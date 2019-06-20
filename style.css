@@ -31,6 +31,17 @@ body {
   border-top: 0.3em solid #229B9D;
 }
 
+.tabs__header:hover {
+  background-color: #27456B;
+  color: #F3F4F6;
+}
+
+.tabs__header--active:hover {
+  background-color: #FFFFFF;
+  color: #27456B;
+}
+
+
 .tabs__header:focus {
   outline: none;
 }
