@@ -1,0 +1,37 @@
+body {
+  background-color: #F3F4F6;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.tabs__header {
+  border: 0.1em #F3F4F6 solid;
+  color: #27456B;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 1em 1.5em;
+}
+
+.tabs__header--active {
+  background-color: #FFFFFF;
+  border: none;
+  border-top: 0.3em solid #229B9D;
+}
+
+.tabs__content {
+  background-color: #FFFFFF;
+  color: #27456B;
+  display: none;
+  font-size: 1.2em;
+  padding: 2em;
+}
+
+.tabs__content h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.tabs__content--active {
+  display: block;
+}
